@@ -1,0 +1,36 @@
+* {
+    font-family: "DM Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    color: #fff;
+  }
+  
+section {
+    padding: 50px;
+}
+  
+#about, #portfolio, #contact {
+    background: #f4f4f4;
+}
+
+#navbar .nav-link {
+    color: black;
+}
+
+#navbar .navbar-brand {
+    color: black ;
+}
+
+#navbar {
+    background: #f4f4f4;
+    opacity: 50%;
+}
